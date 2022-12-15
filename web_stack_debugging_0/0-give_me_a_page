@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 # This script makes Apache run on the container and return a page
-sudo restart apache2
+sudo systemcl restart apache2
