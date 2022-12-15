@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#Find out why Ubunthu container will not listen to port 80
+mv /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+cp /etc/nginx/sites-enabled/default /etc/nginx/sites-available/default 
+service nginx stop
+pkil nginx
+service nginx start
