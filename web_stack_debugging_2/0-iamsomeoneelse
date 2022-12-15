@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#Script accepting one argument,runs whoami under different users
+sudo -u "$1" whoami
